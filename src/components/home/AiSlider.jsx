@@ -13,7 +13,7 @@ const AiSlider = () => {
             '.slider-container',
             { x: 0 },
             {
-                x: '-105%',
+                x: '-78%',
                 scrollTrigger: {
                     trigger: '.slider-container',
                     start: 'top top',
@@ -33,7 +33,7 @@ const AiSlider = () => {
                     <span className='bg-gradient-to-l to-light-pink from-light-blue bg-clip-text text-transparent'> Development </span> with AdaptsAI
                 </h1>
             </div>
-            <div className="flex items-center justify-between pt-[60px] max-w-[1140px] mx-auto">
+            <div className="flex items-center justify-between py-[60px] max-w-[1140px] mx-auto ">
                 {SLIDER_ICONS_LIST.map((obj, i) => (
                     <div key={i} className="size-[58px] border border-lightBlue rounded-md flex items-center justify-center ">
                         {obj}
@@ -42,7 +42,7 @@ const AiSlider = () => {
             </div>
             <div className="slider-container flex flex-nowrap w-[5760px]">
                 {SLIDER_LIST.map((obj, i) => (
-                    <div key={i} className="flex gap-[65px] items-center justify-center mx-auto max-w-[1440px] w-[1440px]">
+                    <div key={i} className="flex gap-[65px] items-center justify-center mx-auto max-w-[1440px] w-[1440px] pt-40">
                         <div className="max-w-[461px]">
                             <Image src={obj.number} alt="number" width={297} height={182} className="object-cover max-w-[297px] max-md:max-w-[100px] pointer-events-none"/>
                             <p className='text-[32px] font-bold pb-4 text-white'>
